@@ -1,0 +1,43 @@
+.meetingPlace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  z-index: 0;
+}
+
+.meetingPlace .blank {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.meetingPlace section {
+  display: grid;
+  grid-template-columns: 500px 500px 500px 500px;
+  
+  position: relative;
+}
+
+.meetingPlace section button.sort {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  transform: translate(100%, 0);
+  border: none;
+  background-color: #caf0f8;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.meetingPlace section button.sort:hover,
+.meetingPlace section button.sort:active {
+  filter: brightness(95%);
+}
+
+.meetingPlace section button.sort img {
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: cover;
+}

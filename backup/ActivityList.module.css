@@ -1,0 +1,24 @@
+.activityList {
+  height: 500px;
+  background-color: #90e0ef;
+}
+
+.activityList ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.activityList ul::-webkit-scrollbar{
+  background-color: #90e0ef;
+}
+
+.activityList ul::-webkit-scrollbar-thumb {
+  background-color: #6dd5e8;
+  border-radius: 10px;
+}

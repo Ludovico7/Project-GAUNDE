@@ -1,0 +1,17 @@
+.savedItem {
+  background-color: rgb(254, 224, 185);
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  min-width: fit-content;
+}
+
+.savedItem:hover {
+  background-color: rgb(249, 217, 175);
+}
+
+.savedItem h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: black;
+}

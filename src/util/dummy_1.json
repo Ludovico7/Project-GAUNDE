@@ -1,0 +1,230 @@
+{
+    "destIndex": 0,
+    "destName": "홍대입구",
+    "destX": 37.557192,
+    "destY": 126.925381,
+    "startPoint": [
+        {
+            "startPointIndex": 0,
+            "mapObj": "3:2:340:339@204:2:923:913@2:2:237:239",
+            "depX": 37.493415,
+            "depY": 127.01408,
+            "payment": 1500,
+            "totalTime": 31,
+            "subPathList": [
+                {
+                    "trafficType": 3,
+                    "distance": 49,
+                    "sectionTime": 1
+                },
+                {
+                    "trafficType": 1,
+                    "distance": 1600,
+                    "lane": [
+                        {
+                            "subwayCode": 3,
+                            "subwayCityCode": 1000
+                        }
+                    ],
+                    "passStopList": {
+                        "stations": [
+                            {
+                                "index": 0,
+                                "stationID": 340,
+                                "stationName": "교대"
+                            },
+                            {
+                                "index": 1,
+                                "stationID": 339,
+                                "stationName": "고속터미널"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "trafficType": 1,
+                    "distance": 10600,
+                    "lane": [
+                        {
+                            "subwayCode": 9,
+                            "subwayCityCode": 1000
+                        }
+                    ],
+                    "passStopList": {
+                        "stations": [
+                            {
+                                "index": 0,
+                                "stationID": 923,
+                                "stationName": "고속터미널"
+                            },
+                            {
+                                "index": 1,
+                                "stationID": 920,
+                                "stationName": "동작"
+                            },
+                            {
+                                "index": 2,
+                                "stationID": 917,
+                                "stationName": "노량진"
+                            },
+                            {
+                                "index": 3,
+                                "stationID": 915,
+                                "stationName": "여의도"
+                            },
+                            {
+                                "index": 4,
+                                "stationID": 913,
+                                "stationName": "당산"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "trafficType": 1,
+                    "distance": 3100,
+                    "lane": [
+                        {
+                            "subwayCode": 2,
+                            "subwayCityCode": 1000
+                        }
+                    ],
+                    "passStopList": {
+                        "stations": [
+                            {
+                                "index": 0,
+                                "stationID": 237,
+                                "stationName": "당산"
+                            },
+                            {
+                                "index": 1,
+                                "stationID": 238,
+                                "stationName": "합정"
+                            },
+                            {
+                                "index": 2,
+                                "stationID": 239,
+                                "stationName": "홍대입구"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "trafficType": 3,
+                    "distance": 121,
+                    "sectionTime": 2
+                }
+            ]
+        },
+        {
+            "startPointIndex": 1,
+            "mapObj": "21210:1:15:27",
+            "depX": 37.504631,
+            "depY": 126.763538,
+            "totalTime": 42,
+            "payment": 3000,
+            "subPathList": [
+                {
+                    "trafficType": 3,
+                    "distance": 196
+                },
+                {
+                    "trafficType": 2,
+                    "distance": 18136,
+                    "lane": [
+                        {
+                            "trafficType": 1,
+                            "busNo": "1601"
+                        },
+                        {
+                            "trafficType": 1,
+                            "busNo": "1300"
+                        },
+                        {
+                            "trafficType": 1,
+                            "busNo": "1301"
+                        },
+                        {
+                            "trafficType": 1,
+                            "busNo": "1302"
+                        }
+                    ],
+                    "passStopList": {
+                        "stations": [
+                            {
+                                "index": 0,
+                                "stationID": 189321,
+                                "stationName": "부천시청역3번출구.경기예고.현대백화점"
+                            },
+                            {
+                                "index": 1,
+                                "stationID": 112838,
+                                "stationName": "부천시청역1번출구.부천아트센터"
+                            },
+                            {
+                                "index": 2,
+                                "stationID": 80841,
+                                "stationName": "계룡리슈빌"
+                            },
+                            {
+                                "index": 3,
+                                "stationID": 112636,
+                                "stationName": "신중동역6번출구.중흥중학교"
+                            },
+                            {
+                                "index": 4,
+                                "stationID": 189322,
+                                "stationName": "약대사거리"
+                            },
+                            {
+                                "index": 5,
+                                "stationID": 93021,
+                                "stationName": "부천IC진입"
+                            },
+                            {
+                                "index": 6,
+                                "stationID": 93068,
+                                "stationName": "신월IC"
+                            },
+                            {
+                                "index": 7,
+                                "stationID": 102213,
+                                "stationName": "선유고등학교"
+                            },
+                            {
+                                "index": 8,
+                                "stationID": 5009696,
+                                "stationName": "합정역(가상)"
+                            },
+                            {
+                                "index": 9,
+                                "stationID": 193771,
+                                "stationName": "합정역"
+                            },
+                            {
+                                "index": 10,
+                                "stationID": 193774,
+                                "stationName": "서교동"
+                            },
+                            {
+                                "index": 11,
+                                "stationID": 5009695,
+                                "stationName": "홍대입구역(가상)"
+                            },
+                            {
+                                "index": 12,
+                                "stationID": 193778,
+                                "stationName": "홍대입구역"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "trafficType": 3,
+                    "distance": 206,
+                    "sectionTime": 3
+                }
+            ]
+        }
+    ]
+}

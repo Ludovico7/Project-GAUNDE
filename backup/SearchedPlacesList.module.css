@@ -1,0 +1,23 @@
+.searchedList {
+  height: 440px;
+}
+
+.searchedList ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.searchedList ul::-webkit-scrollbar{
+  background-color: rgb(250, 235, 215);
+}
+
+.searchedList ul::-webkit-scrollbar-thumb {
+  background-color: rgb(254, 224, 185);
+  border-radius: 10px;
+}
