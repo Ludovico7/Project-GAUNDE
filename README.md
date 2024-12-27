@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Project GAUNDE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+지도 api와 길찾기 api를 활용한 약속장소 찾기 애플리케이션
 
-## Available Scripts
+## 개발 인원
 
-In the project directory, you can run:
+24.02.15 - 24.06.03
+총 3명(백엔드 2, 프론트엔드 1)
+모든 프론트엔드 개발 담당
 
-### `npm start`
+## 핵심 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+카카오맵 api를 활용해 출발지 검색 및 지역정보 검색 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+여러 출발지 입력 후 결과값으로 최적의 약속 장소 출력
 
-### `npm test`
+약속장소에서 원하는 카테고리(카페, 음식점 등)의 플레이스 검색 후 출발지에서 플레이스까지의 길찾기 기능 제공
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개발 동기
 
-### `npm run build`
+친구들과 약속을 잡을때마다 항상 어디서 만날지를 정할 때 의견차이가 있었습니다. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+놀기 좋은 장소를 찾아도 한사람은 너무 멀어서 오기가 힘들거나, 중간 장소로 잡아도 막상 그 지역에 놀거리가 없어서 큰 의미가 없거나.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+이런 불편함을 해소하고자 각자 출발지를 입력하면 최적의 약속장소를 찾아주는 애플리케이션을 개발하게 되었습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+React공부를 시작하고 처음으로 React를 이용해 프로젝트를 만들면서 React의 핵심 개념들과 서버와의 연결 방법(컴포넌트, state 및 상태관리, HTTP 요청 등)을 더 자세히 알게 된 계기가 되었습니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+UI를 구성하면서 기본 CSS 대신에 TailwindCSS를 사용하면서 TailwindCSS의 장점 및 단점들에 대해서 알게 되었습니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+상태관리를 구현할 때 Context API 또는 useState를 사용했으나 복잡한 상태관리시 한계를 느껴 Redux를 처음으로 공부하면서 복잡한 상태관리 관리 시의 Redux의 이점을 알게 되었습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 기술 스택
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+FE : Javascript, React, React-Query, Redux-toolkit, HTML/CSS, TailwindCSS, Kakao Map API
 
-## Learn More
+BE: Java, AWS S3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Environment setting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install JavaScript Packages
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Run Frontend Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm run dev
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
